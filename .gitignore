@@ -1,0 +1,14 @@
+# Data: ANAM-BF station data must never be committed
+data/*
+!data/README.md
+
+# Generated outputs
+outputs/
+*.npz
+*.pkl
+
+# Python
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
