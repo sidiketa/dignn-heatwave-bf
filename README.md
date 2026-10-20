@@ -46,8 +46,9 @@ Uncertainty is estimated with Monte Carlo Dropout (50 stochastic passes).
 - 553 heatwave events; about 7 % of station-days are heatwave days
 - The fitted GPD shape parameter is negative at all stations (ξ between −0.34 and −0.09), which indicates a bounded upper tail
 
-Station data belong to ANAM-BF and cannot be redistributed.
-A script generates a synthetic dataset with the same format, so that the full pipeline can be run (see `data/README.md`).
+Daily station observations come from the NOAA Global Surface Summary of the Day (GSOD), which is freely available.
+ANAM-BF observations were used only to cross-validate GSOD and are not distributed.
+Data files are not tracked in this repository; a script generates a synthetic dataset with the same format (see `data/README.md`).
 
 ## Results
 
